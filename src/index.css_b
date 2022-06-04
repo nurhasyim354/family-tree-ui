@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+div.custom-container {
+  background-color: #2f3e46;
+  padding-top: 50px;
+}
+
+svg.node-male .node image {
+  fill: #5C33F6;
+  stroke: #5C33F6;
+  stroke-width: 1.5px;
+}
+
+.node-male {
+  fill: #5C33F6;
+  stroke: #5C33F6;
+}
+
+
+.node-female {
+  fill: #FF94CC;
+  stroke: #FF94CC;
+}
+
+.node-rip {
+  fill: #171010;
+  stroke: #171010;
+}
+
+svg.node-female .node text {
+  font-size: 11px;
+  background-color: #444;
+  fill: #cad2c5;
+  text-shadow: 0 1px 4px black;
+  text-anchor: start;
+  transform: translate(0px, 10px);
+  -ms-transform: translate(0px, 10px);
+  /* IE 9 */
+  -webkit-transform: translate(0px, 10px);
+  /* Safari and Chrome */
+  -o-transform: translate(0px, 10px);
+  /* Opera */
+  -moz-transform: translate(0px, 10px);
+  /* Firefox */
+}
+
+svg .node {
+  cursor: pointer;
+}
+
+svg path.link {
+  fill: none;
+  stroke: #2593B8;
+  stroke-width: 1.5px;
+}
+
+button.btn {
+  margin: 10px;
+  border-radius: 0;
+}
+
+button.btn-menu {
+  margin: 10px;
+  border-radius: 0;
+  background-color: #84a98c;
+}
+
+div.MuiFormControl-root {
+  margin-top: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.btn-grid {
+  margin-top: 35px;
+}
+
+div.alert-form {
+  margin-top: 35px;
+}
+
+div.loader-form {
+  margin-right: 10px;
+}
+
+div.avatar-small {
+  width: 30px;
+  height: 30px;
+}
+
+div.text-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #cad2c5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+a
+{
+   text-decoration:none;
+   color: #cad2c5;
+}
+
+input.search-text.MuiInputBase-input{
+  color: #cad2c5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.MuiOutlinedInput-root {
+  border-radius: 0;
+}
